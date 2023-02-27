@@ -10,7 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("This string is updated to trigger SCM Change");
+        System.out.println("This string is updated to trigger webhook");
     }
 
     public String getMessage() {
