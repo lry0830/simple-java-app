@@ -19,6 +19,12 @@ pipeline {
       steps {
         sh 'mvn test'            
       }
+    }
+    
+    stage('Dummy') {
+      steps {
+        echo 'Dummy statement'
+        }
     }    
     
     stage('Deploy') {
